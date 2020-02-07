@@ -11,7 +11,7 @@ $app = new iSDK;
 {
     //echo $order_status;
     	error_reporting(0);
-	$workingKey='78FB0D46E3667F00400CECF7BDB5F888';		//Working Key should be provided here.
+	$workingKey='sfdsfsdfs';		//Working Key should be provided here.
 	$encResponse=$_POST["encResp"];			//This is the response sent by the CCAvenue Server
 	$rcvdString=decrypt($encResponse,$workingKey);		//Crypto Decryption used as per the specified working key.
 	//$order_status="123654799";
