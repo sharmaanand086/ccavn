@@ -1,0 +1,133 @@
+*{
+padding:0;
+margin:0;
+}
+
+.clear{
+clear:both;
+}
+
+.center{
+	text-align:center;
+}
+.row{
+	width:100%;
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.fail-title{
+	color:#e63535;
+	font-family:'Open Sans',sans-serif;
+	font-weight:600;
+	text-align:center;
+	font-size:35px;
+	margin:2% auto;
+}
+
+.fail-subtitle{
+	color:#3f3f3f;
+	font-family:'Open Sans',sans-serif;
+	font-weight:200;
+	text-align:center;
+	font-size:23px;
+	margin:0px auto;
+}
+
+.fail-event{
+	font-family:'Open Sans',sans-serif;
+	font-size:20px;
+	margin-top:10%;
+}
+.fail-event span{
+	font-weight:700;
+}
+
+.fail-eventhead{
+	font-size:25px;
+}
+
+.fail-eventdtl{
+	margin-left:6%;
+	font-size:20px;
+}
+
+.fail-venue{
+	font-family:'Open Sans',sans-serif;
+	font-size:20px;
+	margin:2% auto;
+}
+.fail-venue span{
+	font-weight:700;
+}
+
+
+/*----------------------Scree Size : 1280px -------------------------------*/
+@media only screen and (max-device-width : 1280px) {
+
+}
+
+/*----------------------Scree Size : 1024px -------------------------------*/
+@media only screen and (max-device-width : 1024px) {
+
+}
+
+/*----------------------Scree Size : 768px -------------------------------*/
+@media only screen and (max-device-width : 768px) {
+
+}
+
+/*----------------------Scree Size : 640px -------------------------------*/
+@media only screen and (max-device-width : 640px) {
+
+.fail-title{
+	font-size:30px;
+}
+.fail-subtitle{
+	font-size:20px;
+}
+.fail-event,.fail-venue{
+	font-size:18px;
+}
+.fail-eventdtl{
+	margin-left:1%;
+}
+.fail-eventhead {
+    font-size: 20px;
+}
+}
+
+/*----------------------Scree Size : 480px -------------------------------*/
+@media only screen and (max-device-width : 480px) {
+
+.fail-title{
+	font-size:25px;
+}
+.fail-subtitle{
+	font-size:17px;
+}
+.fail-event,.fail-venue{
+	font-size:15px;
+}
+.fail-eventhead{
+	width:100%;
+	display:block;
+}
+.fail-eventdtl{
+	margin-left:1%;
+}
+.fail-event span{
+	font-size:15px;
+}
+.fail-eventhead {
+    font-size: 17px;
+}
+}
+
+/*----------------------Scree Size : 320px -------------------------------*/
+@media only screen and (max-device-width : 320px) {
+
+}
